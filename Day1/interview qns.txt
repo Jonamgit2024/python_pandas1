@@ -1,0 +1,44 @@
+python decorators
+yesterday interview questions 
+Brandon Charest 3:09 PM
+
+
+2 types value retruning fun, void fun
+
+
+def calculate_average(scores):
+ total_score = sum[scores]++++++++++
+
+ number_of_scores = len(scores)++++++
+
+
+ average = totalScore / number_of_scores
+
+
+
+  print("The average score is: ", average)
+
+89.5/80
+
+
+# Example usage
+scores_list = [95, 85, 75, 90, 105]
+calculate_average(scores_list)
+
+
+
+3 lanes : 
+
+Bronze:s3 bucket -> audit(deliver time)
+
+Silver:bronze data -WD data >Sysco payees 
+
+Gold:state sorts
+
+
+
+
+Brandon Charest  to  Everyone 3:20 PM
+
+baskets = [('Monday', ['Oranges': 5, 'Apples': 2, 'Spaghetti': 3])
+gfw-rwxp-vps
