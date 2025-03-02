@@ -1,8 +1,8 @@
 import pandas as pd
 
-file_path =r"D:\Python\practice1\part-00000"
+file_path =r"D:\Python\practice1\data\retail_db\orders\part-00000"
 #r"data\retail_db\orders\part-00000"  # Corrected file path
-
+relative_path = r"data\retail_db\orders\part-00000"
 
 try:
     orders_columns=['order_id','order_date','order_customer_id','order_status']
