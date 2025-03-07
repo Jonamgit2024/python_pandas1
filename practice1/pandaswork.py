@@ -1,6 +1,8 @@
+import os
 import pandas as pd
 
 file_path =r"D:\Python\practice1\data\retail_db\orders\part-00000"
+create_path=r"D:\Python\practice1\data\retail_db\orders-json"
 #r"data\retail_db\orders\part-00000"  # Corrected file path
 relative_path = r"data\retail_db\orders\part-00000"
 
@@ -29,7 +31,13 @@ try:
      groupby(['order_month','order_status'])['order_id'].\
      agg('count')
     )
-
+    # Create a Data file of type Json ---------------------------------------------------
+    os.makedirs(create_path, exist_ok=True)
+    orders.to_json(
+        create_path+"/part-00000",
+        orient='records',
+        lines= True
+    )
     
 except FileNotFoundError:
     print(f"Error: File not found at {file_path}")
