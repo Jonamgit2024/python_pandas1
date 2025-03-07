@@ -40,10 +40,12 @@ def firstdigittopowerofsecond(num):
     power =math.pow(tens,ones)
     return power
 
+
 randomnumber = random.randint(0,99)
 print('Enter the Power you want to raise to')
 power =int(input())
 num = randomnumber
+
 print('Random Number generated is ',num)
 print('Double of the digit is ',doublenumber(num))
 print('Reversing the digits',reversedigits(num))
