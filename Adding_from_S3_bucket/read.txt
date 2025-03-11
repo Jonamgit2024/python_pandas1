@@ -1,0 +1,16 @@
+# Read this following Problem statement first
+
+# In a S3 bucket I stored data of sales certain prodcuts in different csv files
+#Categoreis - CATEGORY ID | DEPARTMENT ID | CATEGORY NAME 
+#Departements - DEPARTMENT ID | DEPARTMENT NAME
+#Prodcuts - PRODUCT ID | CATEGORY ID | PRODUCT NAME | PROCUT DESCRIPTION | PRODUCT DESCRIPTION | PRODUCT PRICE | PRODUCT IMAGE
+#Orders - ORDER ID | ORDER DATE | CUSTOMER ID | STATUS
+#Customers - CUSTOMER ID | CUSTOMER FNAME | CUSTOMER LNAME | EMAIL | PASSWORD | STREET | CITY | STATE | ZIP CODE
+#OrderItems - ORDER ITEM ID | ORDER ID | ORDER PRODUCT ID | ORDER SUBTOTAL | ORDER ITEM PRICE 
+
+#1. Now, write a python program to create a csv file showing total amount earned from each department
+# To get total amount earned from each department we need 4 data tables 1. Departments , 2. Categories , 3. Products, 4. Order_items
+# DEPARTMENT | | DEPARTMENT ID | TOTAL PRICE (ORDER SUBTOTAL - CUMULATIVE based on DEPARTMENT)
+
+#2. write a python program to order the customers via state and no.of order status in each state and revenue from each state
+# CUSTOMER ID | CUSTOMER NAME (FNAME+LNAME) | ORDER ID | CUSTOMER STATE | ORDER STATUS (SORTED) -into Single  column | PRICE TOTAL (STATE) -into Single  column
